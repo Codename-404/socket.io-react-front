@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-body {
+  width: 100%;
+  height: calc(100% - 80px);
+}
+
+.room-section-container {
+  width: calc(100% - 300px);
+  height: 100%;
+}
+
+.chat-list-container {
+  width: 100%;
+  height: calc(100% - 60px);
+}
+
+.scroll-1::-webkit-scrollbar {
+  width: 15px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.scroll-1::-webkit-scrollbar-thumb {
+  border: 3px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  background-color: #a3a3a3;
+  border-radius: 10px;
+}
