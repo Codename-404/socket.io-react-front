@@ -16,28 +16,34 @@ This is a simple React.js application designed to test horizontal scaling with S
 Fork the Repository or clone it
 
 
-```git clone https://github.com/yourusername/socketio-horizontal-scaling-test-app.git
+```
+git clone https://github.com/yourusername/socketio-horizontal-scaling-test-app.git
 cd socketio-horizontal-scaling-test-app
 ```
 
 Install Dependencies
 
-bash
-Copy code
+```
 npm install
-Start the Application
+```
 
-bash
-Copy code
+Start the Application
+```
 npm start
-The application should now be running on http://localhost:3000.
+The application should now be running on http://localhost:5173.
+```
 
 📝 Usage
 Connect to a Server
+Download the source code for the server [here](https://github.com/Codename-404/socket.io-express.js-horizontal-scaling)
+Follow the instructions there to spawn multiple servers
 
-Enter the Socket.IO server URL in the input field provided at the top of the application.
+Enter the Socket.IO server URL in the input field provided at the top left corner of the application.
 Click on the "Connect" button to establish a connection with the server.
+
 Chat Window
+Use the chat window to send messages to the server.
+Messages will be broadcast to all connected clients and displayed in the chat window in real-time.
 
 Use the chat window to send messages to the server.
 Messages will be broadcast to all connected clients and displayed in the chat window in real-time.
@@ -65,5 +71,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 📧 Contact
 Nayeemur Rahman - 
-✉️ nayeem.nayeem712@gmail.com
-GitHub - https://github.com/yourusername
+Email: nayeem.nayeem712@gmail.com
+Upwork: https://www.upwork.com/freelancers/nayeemurrahman
