@@ -15,10 +15,11 @@ This is a simple React.js application designed to test horizontal scaling with S
 
 Fork the Repository or clone it
 
-bash
-Copy code
-git clone https://github.com/yourusername/socketio-horizontal-scaling-test-app.git
+
+```git clone https://github.com/yourusername/socketio-horizontal-scaling-test-app.git
 cd socketio-horizontal-scaling-test-app
+```
+
 Install Dependencies
 
 bash
